@@ -1,0 +1,125 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  /* Header Styles */
+  header {
+    background: #f4f4f4;
+    padding: 15px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  header .logo img {
+    max-height: 60px;
+  }
+  
+  header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  header nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  header .social-icons {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+  }
+  
+  header .social-icons a {
+    text-decoration: none;
+    color: #555;
+    font-size: 20px;
+  }
+  
+  /* Banner Section */
+  .banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+    background: #e6f7ff;
+  }
+  
+  .banner .text-content {
+    max-width: 50%;
+  }
+  
+  .banner h1 {
+    font-size: 3em;
+    color: #222;
+  }
+  
+  .banner h1 span {
+    color: #663399;
+  }
+  
+  .banner p {
+    margin: 10px 0;
+  }
+  
+  .banner button {
+    background: #663399;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .banner .image-content img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Footer Styles */
+  footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+  }
+  
+  footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .banner {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .banner .text-content, .banner .image-content {
+      max-width: 100%;
+    }
+  
+    header nav ul {
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+  }
+  
